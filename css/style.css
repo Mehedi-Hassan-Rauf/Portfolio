@@ -4,21 +4,88 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+section {
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}
+
+#one h1 {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+#one h3 {
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+#one p {
+  font-size: 16px;
+  color: dimgray;
 }
 
 .highlight {
   color: orange;
 }
 
+.btn {
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  border: none !important;
+}
+
+.one {
+  background-image: url(../images/top-banner.png);
+}
+
 .half {
   width: 40%;
   float: left;
-  margin: 5%;
+  margin-left: 7%;
 }
 
 .half img {
   width: 100%;
+}
+/* kk */
+
+.two {
+  background-image: url(../images/dream-bg.png);
+  background-position: right;
+}
+
+/* kk */
+.three {
+  background-image: url(../images/exp-bg.png);
+  background-position-y: 75%;
+}
+
+.part1 {
+  width: 42%;
+  height: 80%;
+  box-shadow: 5px 7px 40px grey;
+  border-left: 7px solid tomato;
+  float: left;
+  margin-top: 3%;
+  margin-left: 5.5%;
+}
+
+.part1 h1 {
+  font-size: 40px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: 4%;
+}
+
+.part1 h3 {
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 4%;
+  margin-left: 4%;
+}
+
+.part1 p {
+  color: dimgray;
+  margin-left: 4%;
 }
